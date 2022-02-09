@@ -14,8 +14,8 @@ public class dentak {
       System.exit(0);
     }
     val1 = Integer.parseInt(args[0]);
-    val2 = Integer.prrseInt(args[2]);
+    val2 = Integer.parseInt(args[2]);
     ope = args[1];
-    System.out.println
+    System.out.println("入力された式は" + val1 +"" + ope + "" + val2 + "です");
   }
 }
