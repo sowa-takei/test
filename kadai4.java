@@ -9,7 +9,7 @@ public class kadai4 {
     
     // 出力　for文
     for(int i = 0; i < num.length; i++){
-      // 10まではtrue
+      // 10まではtrue num[i]に
       if(i <= 10){
         // 割り切れなかったら
        if(num[i] % 2 != 0){
@@ -26,7 +26,7 @@ public class kadai4 {
           // 奇数はそのまま出力
           System.out.print(num[i]);
         }else {
-          // 偶数の後に,をつける
+          // 偶数の後に,をつける.
           System.out.print(num[i] + ",");
         }
       }
